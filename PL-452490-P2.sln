@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PL-452490-P2", "PL-452490-P2\PL-452490-P2.csproj", "{69FC5736-0B8C-4306-9B95-5C16E666DA1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PL-452490-P2.Test", "PL-452490-P2.Test\PL-452490-P2.Test.csproj", "{8F290F2A-1413-4317-B4CD-D3E3940FF136}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69FC5736-0B8C-4306-9B95-5C16E666DA1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69FC5736-0B8C-4306-9B95-5C16E666DA1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69FC5736-0B8C-4306-9B95-5C16E666DA1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69FC5736-0B8C-4306-9B95-5C16E666DA1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F290F2A-1413-4317-B4CD-D3E3940FF136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F290F2A-1413-4317-B4CD-D3E3940FF136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F290F2A-1413-4317-B4CD-D3E3940FF136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F290F2A-1413-4317-B4CD-D3E3940FF136}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

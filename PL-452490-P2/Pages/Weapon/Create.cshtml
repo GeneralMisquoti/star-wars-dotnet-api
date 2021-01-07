@@ -1,0 +1,40 @@
+@page
+@model PL_452490_P2.Pages.Weapon.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Weapon</h4>
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Weapon.WeaponOwners" class="control-label"></label>
+                <select asp-for="Weapon.WeaponOwners" class="form-control"
+                        asp-items="@Model.WeaponOwnersSL">
+                    <option value=""> Select owner </option>
+                </select>
+                <label asp-for="Weapon.WeaponType" class="control-label"></label>
+                <select asp-for="Weapon.WeaponType" class="form-control"
+                        asp-items="@Model.WeaponTypesSL">
+                    <option value=""> Select type </option>
+                </select>
+                @* <span asp-validation-for="Weapon.WeaponOwnersID" class="text-danger"/> *@
+                <input type="submit" value="Create" class="btn btn-primary"/>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

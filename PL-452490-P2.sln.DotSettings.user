@@ -1,0 +1,12 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=165b1171_002Dcebb_002D4ec2_002D961b_002D13b709e05df5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PersonGetAsync" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::8F290F2A-1413-4317-B4CD-D3E3940FF136::net5.0::PL_452490_P2.Test.GlobalTestingClass&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6d22fe48_002D7c4d_002D4c74_002Dbed5_002Da0e74108b4d4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestAddingAPerson" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::8F290F2A-1413-4317-B4CD-D3E3940FF136::net5.0::PL_452490_P2.Test.GlobalTestingClass.TestAddingAPerson&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::8F290F2A-1413-4317-B4CD-D3E3940FF136::net5.0::PL_452490_P2.Test.GlobalTestingClass.PeoplePaginationTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
